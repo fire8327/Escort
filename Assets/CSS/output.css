@@ -659,20 +659,20 @@ video {
   inset: -0.25rem;
 }
 
-.right-0\.5 {
-  right: 0.125rem;
-}
-
-.top-1\/2 {
-  top: 50%;
-}
-
 .right-0 {
   right: 0px;
 }
 
+.right-1 {
+  right: 0.25rem;
+}
+
 .top-1 {
   top: 0.25rem;
+}
+
+.top-1\/2 {
+  top: 50%;
 }
 
 .isolate {
@@ -846,12 +846,12 @@ video {
   height: 3rem;
 }
 
-.h-\[calc\(100\%-8px\)\] {
-  height: calc(100% - 8px);
-}
-
 .h-14 {
   height: 3.5rem;
+}
+
+.h-\[calc\(100\%-8px\)\] {
+  height: calc(100% - 8px);
 }
 
 .min-h-screen {
@@ -862,12 +862,32 @@ video {
   width: 2.5rem;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
 .w-12 {
   width: 3rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-24 {
   width: 6rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -884,26 +904,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .max-w-\[var\(--widthContent\)\] {
@@ -954,16 +954,6 @@ video {
   border-collapse: separate;
 }
 
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-translate-x-1 {
   --tw-translate-x: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -971,6 +961,11 @@ video {
 
 .-translate-y-1 {
   --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1452,20 +1447,20 @@ video {
   justify-items: stretch;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-2\.5 {
-  gap: 0.625rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-2\.5 {
+  gap: 0.625rem;
 }
 
 .gap-5 {
@@ -1792,16 +1787,16 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .rounded-xl {
@@ -2081,24 +2076,24 @@ video {
   padding-right: 1.25rem;
 }
 
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .pl-5 {
@@ -2170,14 +2165,14 @@ video {
   line-height: 1.5rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -2777,11 +2772,6 @@ body {
   .max-lg\:p-4 {
     padding: 1rem;
   }
-
-  .max-lg\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
 }
 
 @media (min-width: 640px) {
@@ -2801,10 +2791,6 @@ body {
 
   .md\:w-36 {
     width: 9rem;
-  }
-
-  .md\:max-w-\[704px\] {
-    max-width: 704px;
   }
 
   .md\:gap-8 {
@@ -2830,10 +2816,6 @@ body {
     width: 3.5rem;
   }
 
-  .lg\:w-3\/5 {
-    width: 60%;
-  }
-
   .lg\:grow {
     flex-grow: 1;
   }
@@ -2850,11 +2832,6 @@ body {
     border-radius: 0.75rem;
   }
 
-  .lg\:border-\[\#E3E3E3\] {
-    --tw-border-opacity: 1;
-    border-color: rgb(227 227 227 / var(--tw-border-opacity));
-  }
-
   .lg\:border-\[\#E03E71\] {
     --tw-border-opacity: 1;
     border-color: rgb(224 62 113 / var(--tw-border-opacity));
@@ -2869,10 +2846,6 @@ body {
 @media (min-width: 1280px) {
   .xl\:w-48 {
     width: 12rem;
-  }
-
-  .xl\:w-12 {
-    width: 3rem;
   }
 
   .xl\:gap-16 {
