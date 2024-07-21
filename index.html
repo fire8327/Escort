@@ -9,23 +9,23 @@
 <body>
     <header class="grid-container py-7 w-full">
         <div class="flex items-center max-lg:justify-between gap-2.5 lg:gap-5 max-lg:flex-wrap">
-            <div class="flex items-center gap-16 lg:gap-10">
-                <a href="index.html">
-                    <img src="Assets/Images/header/logo.png" alt="" class="w-24 md:w-36 xl:w-48">
+            <div class="flex items-center gap-16 lg:gap-10 max-lg:grow max-lg:justify-between shrink-0">
+                <a href="index.html" class="w-24 md:w-36 xl:w-48 shrink-0">
+                    <img src="Assets/Images/header/logo.png" alt="">
                 </a>
                 <div class="flex items-center gap-2.5 shrink-0">
                     <img src="Assets/Images/header/subway.png" alt="">
                     <p class="text-xs md:text-base xl:text-lg">Курская</p>
                 </div>
             </div>
-            <div class="flex items-center gap-2.5 md:gap-8 xl:gap-16 w-full lg:grow max-lg:order-last">
+            <div class="flex items-center gap-2.5 lg:gap-8 xl:gap-8 w-full lg:grow max-lg:order-last">
                 <form action="" class="relative grow">
-                    <input type="text" class="w-full border border-[#E03E71] rounded-lg md:rounded-xl xl:rounded-2xl text-base pl-5 pr-14 py-3.5 lg:py-4" placeholder="Поиск анкет">
-                    <button class="absolute right-1 h-[calc(100%-8px)] top-1/2 -translate-y-1/2 bg-[#E03E71] rounded-[10px] lg:rounded-xl flex items-center justify-center w-10 md:w-11 xl:12">
+                    <input type="text" class="w-full border border-[#E03E71] rounded-lg md:rounded-xl xl:rounded-2xl text-base pl-5 pr-14 h-12 lg:h-14" placeholder="Поиск анкет">
+                    <button class="absolute right-1 h-[calc(100%-8px)] top-1/2 -translate-y-1/2 bg-[#E03E71] rounded-[10px] lg:rounded-xl flex items-center justify-center w-10 md:w-12 xl:14">
                         <img src="Assets/Images/header/search.png" alt="">
                     </button>
                 </form>
-                <button class="flex items-center gap-2.5 max-lg:border border-[#E3E3E3] max-lg:rounded-[10px] max-lg:p-4">
+                <button class="flex items-center justify-center gap-2.5 max-lg:border border-[#E3E3E3] max-lg:rounded-[10px] max-lg:w-12 max-lg:h-12">
                     <img src="Assets/Images/header/heart.png" alt="" class="shrink-0">
                     <span class="text-[#6C7685] text-base max-lg:hidden">Избранное</span>
                 </button>
