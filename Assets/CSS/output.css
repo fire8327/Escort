@@ -747,6 +747,26 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-2\.5{
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -902,6 +922,10 @@ video {
   display: none;
 }
 
+.\!h-9{
+  height: 2.25rem !important;
+}
+
 .h-11{
   height: 2.75rem;
 }
@@ -937,6 +961,10 @@ video {
 .\!w-fit{
   width: -moz-fit-content !important;
   width: fit-content !important;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .w-10{
@@ -2193,6 +2221,16 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-2\.5{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2395,6 +2433,11 @@ video {
 .stacked-fractions{
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.text-\[\#282828\]{
+  --tw-text-opacity: 1;
+  color: rgb(40 40 40 / var(--tw-text-opacity));
 }
 
 .text-\[\#6C7685\]{
@@ -2892,12 +2935,28 @@ body{
 }
 
 @media not all and (min-width: 768px){
+  .max-md\:w-1\/2{
+    width: 50%;
+  }
+
+  .max-md\:w-full{
+    width: 100%;
+  }
+
+  .max-md\:grow{
+    flex-grow: 1;
+  }
+
   .max-md\:flex-col{
     flex-direction: column;
   }
 
   .max-md\:justify-center{
     justify-content: center;
+  }
+
+  .max-md\:justify-between{
+    justify-content: space-between;
   }
 }
 
@@ -2913,6 +2972,11 @@ body{
 }
 
 @media (min-width: 768px){
+  .md\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .md\:mb-8{
     margin-bottom: 2rem;
   }
@@ -2933,6 +2997,10 @@ body{
     width: 9rem;
   }
 
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:gap-6{
     gap: 1.5rem;
   }
@@ -2943,6 +3011,11 @@ body{
 
   .md\:rounded-xl{
     border-radius: 0.75rem;
+  }
+
+  .md\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:text-2xl{
@@ -3026,6 +3099,11 @@ body{
     border-color: rgb(224 62 113 / var(--tw-border-opacity));
   }
 
+  .lg\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -3065,6 +3143,10 @@ body{
     gap: 2rem;
   }
 
+  .xl\:gap-24{
+    gap: 6rem;
+  }
+
   .xl\:rounded-2xl{
     border-radius: 1rem;
   }
@@ -3072,6 +3154,11 @@ body{
   .xl\:px-\[30px\]{
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .xl\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .xl\:text-2xl{
