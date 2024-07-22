@@ -39,3 +39,7 @@ body{
     font-family: "Inter", sans-serif; 
     font-style: normal;
 }
+
+.filter-active {
+    @apply border-[#E03E71] text-[#E03E71] font-medium
+}
