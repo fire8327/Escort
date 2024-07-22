@@ -6,7 +6,7 @@
     <title>Главная</title>
     <link rel="stylesheet" href="Assets/CSS/output.css">
 </head>
-<body>
+<body class="flex flex-col min-h-screen font-Inter">
     <header class="grid-container py-7 w-full">
         <div class="flex items-center max-lg:justify-between gap-2.5 lg:gap-5 max-lg:flex-wrap">
             <div class="flex items-center gap-16 lg:gap-10 max-lg:grow max-lg:justify-between shrink-0">
@@ -35,5 +35,48 @@
             </button>
         </div>
     </header>
+
+    <footer class="w-full mb-10 flex flex-col gap-10 mt-auto">
+        <div class="w-full h-px bg-[#E3E3E3]"></div>
+        <div class="grid-container">
+            <div class="flex flex-col gap-10">
+                <div class="flex items-center justify-between max-md:flex-col gap-5">
+                    <div class="flex items-center gap-10 max-md:justify-center">
+                        <a href="index.html" class="w-24 md:w-36 xl:w-48 shrink-0">
+                            <img src="Assets/Images/header/logo.png" alt="">
+                        </a>
+                        <p class="text-lg md:text-xl xl:text-2xl font-semibold">18+</p>
+                    </div>
+                    <button class="text-[#6C7685] border border-[#E3E3E3] rounded-2xl py-4 px-3">Пожаловаться на анкету</button>
+                </div>
+                <div class="flex max-lg:flex-col gap-5 lg:justify-between text-base md:text-lg xl:text-xl font-semibold">
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">О нас</a>
+                        <a href="#">Реклама на сайте</a>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Информация для правообладателя</a>
+                        <a href="#">Карта сайта</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Индивидуалки</a>
+                        <a href="#">Интим-салоны</a>
+                        <a href="#">Стриптиз-клубы</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Секс истории</a>
+                        <a href="#">Статьи</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-px bg-[#E3E3E3]"></div>
+        <div class="container mx-auto px-2.5 sm:px-4 xl:px-[30px] flex items-center justify-between max-md:flex-col gap-5 text-[#6C7685] text-base md:text-lg xl:text-xl">
+            <a href="#">Политика конфиденциальности</a>
+            <p>© 2024 все права защищены</p>
+        </div>
+    </footer>
 </body>
 </html>
