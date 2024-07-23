@@ -705,6 +705,10 @@ video {
   isolation: auto;
 }
 
+.z-\[1\]{
+  z-index: 1;
+}
+
 .order-last{
   order: 9999;
 }
@@ -937,6 +941,10 @@ video {
   height: 2.25rem !important;
 }
 
+.\!h-full{
+  height: 100% !important;
+}
+
 .h-11{
   height: 2.75rem;
 }
@@ -957,8 +965,18 @@ video {
   height: calc(100% - 8px);
 }
 
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full{
   height: 100%;
+}
+
+.h-max{
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .h-px{
@@ -2930,10 +2948,39 @@ body{
 }
 
 .card-tabs.ui-tabs-active{
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 227 227 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(40 40 40 / var(--tw-text-opacity));
+}
+
+.card-tabs.ui-tabs-active::after{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 227 227 / var(--tw-bg-opacity));
+}
+
+.after\:absolute::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:inset-0::after{
+  content: var(--tw-content);
+  inset: 0px;
+}
+
+.after\:z-\[0\]::after{
+  content: var(--tw-content);
+  z-index: 0;
+}
+
+.after\:h-\[120\%\]::after{
+  content: var(--tw-content);
+  height: 120%;
+}
+
+.after\:rounded-t-lg::after{
+  content: var(--tw-content);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 @media not all and (min-width: 1024px){

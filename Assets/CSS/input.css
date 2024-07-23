@@ -45,5 +45,8 @@ body{
 }
 
 .card-tabs.ui-tabs-active {
-    @apply bg-[#E3E3E3] text-[#282828]
+    @apply text-[#282828]
+}
+.card-tabs.ui-tabs-active::after {
+    @apply bg-[#E3E3E3]
 }
