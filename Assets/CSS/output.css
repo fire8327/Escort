@@ -978,6 +978,10 @@ video {
   width: 0.25rem;
 }
 
+.w-1\/2{
+  width: 50%;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -1010,18 +1014,6 @@ video {
   width: 12rem;
 }
 
-.w-\[this-is\\\\\]{
-  width: this-is\\;
-}
-
-.w-\[this-is\]{
-  width: this-is;
-}
-
-.w-\[weird-and-invalid\]{
-  width: weird-and-invalid;
-}
-
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
@@ -1029,10 +1021,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-1\/2{
-  width: 50%;
 }
 
 .max-w-\[var\(--widthContent\)\]{
@@ -2113,11 +2101,6 @@ video {
   background-color: rgb(227 227 227 / var(--tw-bg-opacity));
 }
 
-.bg-\[rgb\(255\2c 0\2c 0\)\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2247,11 +2230,6 @@ video {
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-1\.5{
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
 }
 
 .px-2{
@@ -2498,10 +2476,6 @@ video {
   color: rgb(40 40 40 / var(--tw-text-opacity));
 }
 
-.text-\[\#336699\]\/\[\.35\]{
-  color: rgb(51 102 153 / .35);
-}
-
 .text-\[\#6C7685\]{
   --tw-text-opacity: 1;
   color: rgb(108 118 133 / var(--tw-text-opacity));
@@ -2512,6 +2486,11 @@ video {
   color: rgb(224 62 113 / var(--tw-text-opacity));
 }
 
+.text-\[\#E3E3E3\]{
+  --tw-text-opacity: 1;
+  color: rgb(227 227 227 / var(--tw-text-opacity));
+}
+
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -2520,15 +2499,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
-}
-
-.text-\[\#E3E3E3\]{
-  --tw-text-opacity: 1;
-  color: rgb(227 227 227 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2884,11 +2854,6 @@ video {
   contain: var(--tw-contain-size) var(--tw-contain-layout) var(--tw-contain-paint) var(--tw-contain-style);
 }
 
-.content-\[\'this-is-also-valid\]-weirdly-enough\'\]{
-  --tw-content: 'this-is-also-valid]-weirdly-enough';
-  content: var(--tw-content);
-}
-
 .forced-color-adjust-auto{
   forced-color-adjust: auto;
 }
@@ -2964,62 +2929,11 @@ body{
   color: rgb(224 62 113 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px){
-  .sm\:container{
-    width: 100%;
-  }
-
-  @media (min-width: 640px){
-    .sm\:container{
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px){
-    .sm\:container{
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px){
-    .sm\:container{
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px){
-    .sm\:container{
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px){
-    .sm\:container{
-      max-width: 1536px;
-    }
-  }
-}
-
-.hover\:font-bold:hover{
-  font-weight: 700;
-}
-
-.before\:hover\:text-center:hover::before{
-  content: var(--tw-content);
-  text-align: center;
-}
-
-.hover\:before\:text-center:hover::before{
-  content: var(--tw-content);
-  text-align: center;
-}
-
-.focus\:hover\:text-center:hover:focus{
-  text-align: center;
-}
-
-.hover\:focus\:text-center:focus:hover{
-  text-align: center;
+.card-tabs.ui-tabs-active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 227 227 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(40 40 40 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1024px){
@@ -3094,10 +3008,6 @@ body{
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .sm\:underline{
-    text-decoration-line: underline;
   }
 
   .sm\:\[--widthContentMargin\:16px\]{
@@ -3323,13 +3233,5 @@ body{
 
   .xl\:\[--widthContentMargin\:30px\]{
     --widthContentMargin: 30px;
-  }
-}
-
-@media (prefers-color-scheme: dark){
-  @media (min-width: 1024px){
-    .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
-      paint-order: markers;
-    }
   }
 }

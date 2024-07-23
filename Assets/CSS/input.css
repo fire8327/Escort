@@ -43,3 +43,7 @@ body{
 .filter-active {
     @apply border-[#E03E71] text-[#E03E71] font-medium
 }
+
+.card-tabs.ui-tabs-active {
+    @apply bg-[#E3E3E3] text-[#282828]
+}
