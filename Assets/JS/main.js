@@ -21,3 +21,7 @@ const swiper = new Swiper('.hero-slider', {
         },
     }
 });
+
+
+/* card tabs */
+$("#card-tabs").tabs();
