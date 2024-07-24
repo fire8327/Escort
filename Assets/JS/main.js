@@ -33,4 +33,4 @@ const swiper1 = new Swiper('.card-slider', {
 
 
 /* card tabs */
-$("#card-tabs").tabs();
+$(".card-tabs").tabs();
