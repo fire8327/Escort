@@ -54,3 +54,7 @@ body{
 .card-pagination > .swiper-pagination-bullet {
     @apply bg-[#E03E71]
 }
+
+.active-pagination {
+    @apply p-2.5 text-white bg-[#E03E71] rounded-[100px]
+}
