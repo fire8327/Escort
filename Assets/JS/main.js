@@ -21,6 +21,15 @@ const swiper = new Swiper('.hero-slider', {
         },
     }
 });
+/* card-slider */
+const swiper1 = new Swiper('.card-slider', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
+    pagination: {
+      el: '.card-pagination'
+    }
+});
 
 
 /* card tabs */

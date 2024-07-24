@@ -2956,6 +2956,11 @@ body{
   background-color: rgb(227 227 227 / var(--tw-bg-opacity));
 }
 
+.card-pagination > .swiper-pagination-bullet{
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 62 113 / var(--tw-bg-opacity));
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;

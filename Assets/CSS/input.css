@@ -50,3 +50,7 @@ body{
 .card-tabs.ui-tabs-active::after {
     @apply bg-[#E3E3E3]
 }
+
+.card-pagination > .swiper-pagination-bullet {
+    @apply bg-[#E03E71]
+}
