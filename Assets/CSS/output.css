@@ -1606,6 +1606,14 @@ video {
   gap: 2.5rem;
 }
 
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
+}
+
 .gap-16{
   gap: 4rem;
 }
@@ -1644,14 +1652,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-12{
-  gap: 3rem;
-}
-
-.gap-14{
-  gap: 3.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2404,6 +2404,10 @@ video {
   line-height: 1;
 }
 
+.text-\[10px\]{
+  font-size: 10px;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2427,10 +2431,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[10px\]{
-  font-size: 10px;
 }
 
 .font-bold{
@@ -2536,10 +2536,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
 }
 
 .underline{
@@ -3125,8 +3121,16 @@ body{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
   .md\:gap-10{
     gap: 2.5rem;
+  }
+
+  .md\:gap-12{
+    gap: 3rem;
   }
 
   .md\:gap-3\.5{
@@ -3139,10 +3143,6 @@ body{
 
   .md\:gap-8{
     gap: 2rem;
-  }
-
-  .md\:gap-12{
-    gap: 3rem;
   }
 
   .md\:rounded-xl{
@@ -3203,24 +3203,16 @@ body{
     width: 30%;
   }
 
-  .lg\:w-\[70\%\]{
-    width: 70%;
-  }
-
-  .lg\:w-\[45\%\]{
-    width: 45%;
-  }
-
-  .lg\:w-\[55\%\]{
-    width: 55%;
+  .lg\:w-\[48\%\]{
+    width: 48%;
   }
 
   .lg\:w-\[52\%\]{
     width: 52%;
   }
 
-  .lg\:w-\[48\%\]{
-    width: 48%;
+  .lg\:w-\[70\%\]{
+    width: 70%;
   }
 
   .lg\:grow{
@@ -3239,6 +3231,10 @@ body{
     gap: 2.5rem;
   }
 
+  .lg\:gap-12{
+    gap: 3rem;
+  }
+
   .lg\:gap-20{
     gap: 5rem;
   }
@@ -3249,14 +3245,6 @@ body{
 
   .lg\:gap-8{
     gap: 2rem;
-  }
-
-  .lg\:gap-12{
-    gap: 3rem;
-  }
-
-  .lg\:gap-16{
-    gap: 4rem;
   }
 
   .lg\:rounded-xl{
@@ -3326,6 +3314,14 @@ body{
     gap: 2.5rem;
   }
 
+  .xl\:gap-14{
+    gap: 3.5rem;
+  }
+
+  .xl\:gap-16{
+    gap: 4rem;
+  }
+
   .xl\:gap-32{
     gap: 8rem;
   }
@@ -3336,18 +3332,6 @@ body{
 
   .xl\:gap-8{
     gap: 2rem;
-  }
-
-  .xl\:gap-14{
-    gap: 3.5rem;
-  }
-
-  .xl\:gap-12{
-    gap: 3rem;
-  }
-
-  .xl\:gap-16{
-    gap: 4rem;
   }
 
   .xl\:rounded-2xl{
@@ -3389,14 +3373,14 @@ body{
     line-height: 1.75rem;
   }
 
-  .xl\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .xl\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .xl\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .xl\:\[--widthContentMargin\:30px\]{
