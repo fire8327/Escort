@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Assets/CSS/output.css">
+</head>
+<body class="flex flex-col min-h-screen font-Inter text-[#282828]">
+    <header class="grid-container py-7 w-full">
+        <div class="flex items-center max-lg:justify-between gap-2.5 lg:gap-5 max-lg:flex-wrap">
+            <div class="flex items-center gap-16 lg:gap-10 max-lg:grow max-lg:justify-between shrink-0">
+                <a href="index.html" class="w-24 md:w-36 xl:w-48 shrink-0">
+                    <img src="Assets/Images/header/logo.png" alt="">
+                </a>
+                <div class="flex items-center gap-2.5 shrink-0">
+                    <img src="Assets/Images/header/subway.png" alt="">
+                    <p class="text-xs md:text-base xl:text-lg">Курская</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2.5 lg:gap-8 xl:gap-8 w-full lg:grow max-lg:order-last">
+                <form action="" class="relative grow">
+                    <input type="text" class="w-full border border-[#E03E71] rounded-lg md:rounded-xl xl:rounded-2xl text-base pl-5 pr-14 h-12 lg:h-14" placeholder="Поиск анкет">
+                    <button class="absolute right-1 h-[calc(100%-8px)] top-1/2 -translate-y-1/2 bg-[#E03E71] rounded-[10px] lg:rounded-xl flex items-center justify-center w-10 md:w-12 xl:14">
+                        <img src="Assets/Images/header/search.png" alt="">
+                    </button>
+                </form>
+                <button class="flex items-center justify-center gap-2.5 max-lg:border border-[#E3E3E3] max-lg:rounded-[10px] max-lg:w-12 max-lg:h-12">
+                    <img src="Assets/Images/header/heart.png" alt="" class="shrink-0">
+                    <span class="text-[#6C7685] text-base max-lg:hidden">Избранное</span>
+                </button>
+            </div>
+            <button class="flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 shrink-0 border border-[#E3E3E3] lg:border-[#E03E71] rounded-[10px] md:rounded-xl xl:rounded-2xl">
+                <img src="Assets/Images/header/menu.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <section class="grid-container">
+        <div class="flex items-center gap-2.5 md:gap-6 xl:gap-8">
+            <button class="hero-prev shrink-0">
+                <img class="h-9 md:h-11 xl:h-14" src="Assets/Images/hero-slider/left.png" alt="">
+            </button>
+            <div class="swiper hero-slider text-xs md:text-sm xl:text-base grow">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Супер-пупер (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit filter-active">Индивидуалки (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Массажистки (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Без предоплаты (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">БДСМ (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Ждут звонка (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Новые анкеты (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Супер-пупер (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit filter-active">Индивидуалки (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Массажистки (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Без предоплаты (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">БДСМ (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Ждут звонка (24)</div>
+                    <div class="swiper-slide py-2.5 md:py-3 xl:py-4 px-3 border border-[#E3E3E3] rounded-lg mdd:rounded-xl xl:rounded-2xl text-[#6C7685] !w-fit">Новые анкеты (24)</div>
+                </div>
+            </div>
+            <button class="hero-next shrink-0">
+                <img class="h-9 md:h-11 xl:h-14" src="Assets/Images/hero-slider/right.png" alt="">
+            </button>
+        </div>
+    </section>
+
+    <section class="grid-container my-5 md:my-8 xl:mt-14 xl:mb-10">
+        <div class="text-[#6C7685] text-xs md:text-sm xl:text-base"><a href="index.html">Главная</a> / <a href="#">Все анкеты</a> / <span class="text-[#E03E71] font-medium">Имя Фамилия</span></в>
+    </section>
+
+    <main class="grid-container mb-24 xl:mb-32">
+        <div class="flex flex-col gap-24 xl:gap-32">
+            <div class="flex max-lg:flex-col gap-8 md:gap-12 xl:gap-14">
+                <div class="w-full lg:w-[52%] flex flex-col gap-8 md:gap-12 xl:gap-14">
+                    <div class="w-full h-px bg-[#E3E3E3]"></div>
+                    <div class="flex flex-col gap-5 md:gap-8 xl:gap-10 w-full">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Видео с Имя Девушки</p>
+                        <video src="Assets/Video/test.mp4" class="rounded-2xl w-full" controls></video>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[48%] flex flex-col gap-8 md:gap-12 xl:gap-14">
+                    <div class="flex flex-col gap-5 w-full">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <img src="Assets/Images/card/check.png" alt="">
+                                <p class="font-medium text-xl md:text-2xl xl:text-3xl">Имя девушки</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="Assets/Images/card/star.png" alt="">
+                            <p class="text-[#6C7685] text-xs md:text-sm xl:text-base">4.99</p>
+                        </div>
+                        <p class="text-[#6C7685] text-base md:text-lg xl:text-xl italic">Красивая блондинка и так далее...</p>
+                        <div class="flex items-center justify-between">
+                            <a href="tel:+7 (999) 999 99 99" class="flex items-center gap-2.5">
+                                <img src="Assets/Images/card/phone.png" alt="">
+                                <span class="text-xs md:text-sm xl:text-base">+7 (999) 999 99 99</span>
+                            </a>
+                            <div class="flex items-center gap-1">
+                                <a href="#">
+                                    <img src="Assets/Images/card/viber.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="Assets/Images/card/tg.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="Assets/Images/card/whatsapp.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full h-px bg-[#E3E3E3]"></div>
+                    <div class="flex flex-col gap-5 md:gap-8 xl:gap-10 w-full">
+                        <p class="text-lg md:text-xl xl:text-2xl font-semibold">Информация</p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-16">
+                            <div class="flex flex-col gap-5">
+                                <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Местоположение:</p>
+                                <div class="flex items-center gap-1">
+                                    <img src="Assets/Images/card/locate.png" alt="">
+                                    <p class="text-xs md:text-sm xl:text-base font-medium">г. Москва</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-8 lg:gap-12 xl:gap-16 text-xs md:text-sm xl:text-base">
+                                <div class="flex flex-col gap-5">
+                                    <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Апартаменты:</p>
+                                    <div class="flex flex-col gap-2.5">
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">Express:</p>
+                                            <p class="font-medium">1 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">1 час:</p>
+                                            <p class="font-medium">3 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">3 часа:</p>
+                                            <p class="font-medium">8 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">Ночь:</p>
+                                            <p class="font-medium">40 000 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-5">
+                                    <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Выезд:</p>
+                                    <div class="flex flex-col gap-2.5">
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">Express:</p>
+                                            <p class="font-medium">1 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">1 час:</p>
+                                            <p class="font-medium">3 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">3 часа:</p>
+                                            <p class="font-medium">8 000 ₽</p>
+                                        </div>
+                                        <div class="flex items-center gap-2 5">
+                                            <p class="text-[#6C7685]">Ночь:</p>
+                                            <p class="font-medium">40 000 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Параметры:</p>
+                                <div class="flex flex-col gap-2.5">
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Возраст:</p>
+                                        <p class="font-medium">19 лет</p>
+                                    </div>
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Рост:</p>
+                                        <p class="font-medium">170 см</p>
+                                    </div>
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Вес:</p>
+                                        <p class="font-medium">56 кг</p>
+                                    </div>
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Грудь:</p>
+                                        <p class="font-medium">3 размер</p>
+                                    </div>
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Волосы:</p>
+                                        <p class="font-medium">Брюнетка</p>
+                                    </div>
+                                    <div class="flex items-center gap-2 5">
+                                        <p class="text-[#6C7685]">Нация:</p>
+                                        <p class="font-medium">Русская</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full h-px bg-[#E3E3E3]"></div>
+                    <div class="flex flex-col gap-5 md:gap-8 xl:gap-10 w-full">
+                        <p class="text-lg md:text-xl xl:text-2xl font-semibold">Услуги</p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+                            <div class="flex flex-col gap-5">
+                                <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Основные:</p>
+                                <div class="flex flex-col gap-1 text-[10px] md:text-xs xl:text-sm font-medium">
+                                    <p>Классический секс</p>
+                                    <p>Анал</p>
+                                    <p>Куни</p>
+                                    <p>Глубокий минет</p>
+                                    <p>Минет без презерватива</p>
+                                    <p>Лесбиянки</p>
+                                    <p>Эротический массаж</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Дополнительно:</p>
+                                <div class="flex flex-col gap-1 text-[10px] md:text-xs xl:text-sm font-medium">
+                                    <p>Классический секс</p>
+                                    <p>Анал</p>
+                                    <p>Куни</p>
+                                    <p>Глубокий минет</p>
+                                    <p>Минет без презерватива</p>
+                                    <p>Лесбиянки</p>
+                                    <p>Эротический массаж</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <p class="text-base md:text-lg xl:text-xl text-[#6C7685]">Экстрим услуги:</p>
+                                <div class="flex flex-col gap-1 text-[10px] md:text-xs xl:text-sm font-medium">
+                                    <p>Классический секс</p>
+                                    <p>Анал</p>
+                                    <p>Куни</p>
+                                    <p>Глубокий минет</p>
+                                    <p>Минет без презерватива</p>
+                                    <p>Лесбиянки</p>
+                                    <p>Эротический массаж</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full h-px bg-[#E3E3E3]"></div>
+                    <div class="flex flex-col gap-5 md:gap-8 xl:gap-10">
+                        <p class="text-lg md:text-xl xl:text-2xl font-semibold">Местоположение на карте</p>
+                        <img src="Assets/Images/girlPage/map.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-5 md:gap-8 xl:gap-10">
+                <p class="text-center text-xl md:text-3xl lg:text-4xl xl:text-5xl font-medium">Какой то заголовок</p>
+                <div class="flex max-lg:flex-col gap-24 lg:gap-20">
+                    <p class="text-[#6C7685] lg:w-[70%] xl:w-[75%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="flex flex-col items-center lg:w-[30%] xl:w-[25%] gap-5">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-medium mb-5">Популярные анкеты</p>
+                        <div class="flex flex-col gap-5 border border-[#E3E3E3] rounded-lg md:rounded-xl xl:rounded-2xl p-2.5 w-full">
+                            <div class="relative">
+                                <button class="absolute top-2.5 right-2.5">
+                                    <img src="Assets/Images/card/heart.png" alt="">
+                                </button>
+                                <div class="swiper card-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination card-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <img src="Assets/Images/card/check.png" alt="">
+                                    <p class="font-medium text-base md:text-lg xl:text-xl">Татьяна</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img src="Assets/Images/card/star.png" alt="">
+                                    <p class="text-[#6C7685] text-xs md:text-sm xl:text-base">4.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-5 border border-[#E3E3E3] rounded-lg md:rounded-xl xl:rounded-2xl p-2.5 w-full">
+                            <div class="relative">
+                                <button class="absolute top-2.5 right-2.5">
+                                    <img src="Assets/Images/card/heart.png" alt="">
+                                </button>
+                                <div class="swiper card-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Assets/Images/card/main.png" alt="" class="w-full">                                    
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination card-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <img src="Assets/Images/card/check.png" alt="">
+                                    <p class="font-medium text-base md:text-lg xl:text-xl">Татьяна</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img src="Assets/Images/card/star.png" alt="">
+                                    <p class="text-[#6C7685] text-xs md:text-sm xl:text-base">4.99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <footer class="w-full mb-10 flex flex-col gap-10 mt-auto">
+        <div class="w-full h-px bg-[#E3E3E3]"></div>
+        <div class="grid-container">
+            <div class="flex flex-col gap-10">
+                <div class="flex items-center justify-between max-md:flex-col gap-5">
+                    <div class="flex items-center gap-10 max-md:justify-center">
+                        <a href="index.html" class="w-24 md:w-36 xl:w-48 shrink-0">
+                            <img src="Assets/Images/header/logo.png" alt="">
+                        </a>
+                        <p class="text-lg md:text-xl xl:text-2xl font-semibold">18+</p>
+                    </div>
+                    <button class="text-[#6C7685] border border-[#E3E3E3] rounded-2xl py-4 px-3">Пожаловаться на анкету</button>
+                </div>
+                <div class="flex max-lg:flex-col gap-5 lg:justify-between text-base md:text-lg xl:text-xl font-semibold">
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">О нас</a>
+                        <a href="#">Реклама на сайте</a>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Информация для правообладателя</a>
+                        <a href="#">Карта сайта</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Индивидуалки</a>
+                        <a href="#">Интим-салоны</a>
+                        <a href="#">Стриптиз-клубы</a>
+                    </div>
+                    <div class="flex flex-col gap-5 max-lg:text-center">
+                        <a href="#">Секс истории</a>
+                        <a href="#">Статьи</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-px bg-[#E3E3E3]"></div>
+        <div class="container mx-auto px-2.5 sm:px-4 xl:px-[30px] flex items-center justify-between max-md:flex-col gap-5 text-[#6C7685] text-base md:text-lg xl:text-xl">
+            <a href="#">Политика конфиденциальности</a>
+            <p>© 2024 все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Assets/JS/main.js"></script>
+</body>
+</html>
