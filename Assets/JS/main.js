@@ -21,25 +21,33 @@ const swiper = new Swiper('.hero-slider', {
         },
     }
 });
+/* card-slider */
+const swiper2 = new Swiper('.card-slider', {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 1,
+  pagination: {
+    el: '.card-pagination'
+  }
+});
 /* girlPage-slider */
-const swiper2 = new Swiper('.girlPage-slider', {
+const swiper3 = new Swiper('.girlPage-slider2', {
   loop: true,
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true
 });
-/* card-slider */
-const swiper3 = new Swiper('.card-slider', {
-    loop: true,
-    spaceBetween: 10,
-    slidesPerView: 1,
-    pagination: {
-      el: '.card-pagination'
-    },
-    thumbs: {
-      swiper: swiper2,
-    }
+const swiper4 = new Swiper('.girlPage-slider', {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 1,
+  pagination: {
+    el: '.girlPage-pagination'
+  },
+  thumbs: {
+    swiper: swiper3,
+  }
 });
 
 

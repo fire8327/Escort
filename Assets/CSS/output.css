@@ -937,6 +937,10 @@ video {
   display: none;
 }
 
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
 .\!h-9{
   height: 2.25rem !important;
 }
@@ -2976,7 +2980,7 @@ body{
   background-color: rgb(227 227 227 / var(--tw-bg-opacity));
 }
 
-.card-pagination > .swiper-pagination-bullet{
+.card-pagination > .swiper-pagination-bullet, .girlPage-pagination > .swiper-pagination-bullet{
   --tw-bg-opacity: 1;
   background-color: rgb(224 62 113 / var(--tw-bg-opacity));
 }

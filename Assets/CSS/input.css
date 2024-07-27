@@ -51,7 +51,7 @@ body{
     @apply bg-[#E3E3E3]
 }
 
-.card-pagination > .swiper-pagination-bullet {
+.card-pagination > .swiper-pagination-bullet, .girlPage-pagination > .swiper-pagination-bullet {
     @apply bg-[#E03E71]
 }
 
