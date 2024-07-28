@@ -51,5 +51,23 @@ const swiper4 = new Swiper('.girlPage-slider', {
 });
 
 
-/* card tabs */
-$(".card-tabs").tabs();
+/* tabs */
+$(".card-tabs").each(function(index) {
+  let $this = $(this);
+  let prefix = "tabs-" + index;
+
+  $this.find("ul a").each(function(tabIndex) {
+    let $tab = $(this);
+    let tabId = prefix + "-tab-" + tabIndex;
+    let panelId = prefix + "-panel-" + tabIndex;
+
+    $tab.attr("href", "#" + panelId);
+    $tab.closest("li").attr("id", tabId);
+  });
+
+  $this.find(".card-tab").each(function(panelIndex) {
+    $(this).attr("id", prefix + "-panel-" + panelIndex);
+  });
+
+  $this.tabs();
+});
